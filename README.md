@@ -11,6 +11,7 @@ Esta es una aplicación de pronóstico del tiempo desarrollada con [Streamlit](h
 
 ## 📂 Estructura del proyecto
 
+```plaintext
 Solemne3/
 │
 ├── src/                        # Carpeta del codigo principal

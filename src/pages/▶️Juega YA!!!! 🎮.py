@@ -13,9 +13,9 @@ def main():
     st.title("Quiz de Meteorología 🌦️")
 
     st.logo(
-        "images\logo_USS_35.png",
+        "images/logo_USS_35.png",
         link="https://www.uss.cl/",
-        icon_image="images\logo_USS.png",
+        icon_image="images/logo_USS.png",
     )
 
     st.write(

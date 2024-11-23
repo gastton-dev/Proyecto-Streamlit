@@ -11,9 +11,9 @@ st.set_page_config(page_title="Pronóstico del Tiempo", page_icon="☀️", layo
 # Título de la aplicación
 st.title("🌦️ Aplicación del Tiempo - Open Meteo API")
 st.logo(
-    "images\logo_USS_35.png",
+    "images/logo_USS_35.png",
     link="https://www.uss.cl/",
-    icon_image="images\logo_USS.png",
+    icon_image="images/logo_USS.png",
 )
 
 # Entrada de ubicación
