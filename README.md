@@ -24,21 +24,21 @@ Solemne3/
 ├── .streamlit                  # Archivo configuración de Streamlit
 │   └── config.toml             # Configuración de Streamlit
 ├── requirements.txt            # Dependencias del proyecto
-└──README.md                    # Documentación del proyecto
+└── README.md                    # Documentación del proyecto
 
 ## Instalar dependencias:
 
 Asegúrate de tener Python 3.7 o superior instalado. Luego, instala las dependencias:
 
-bash
+```bash
 
 pip install -r requirements.txt
 
 ## Ejecutar la aplicación:
 
-bash
+```bash
 
-streamlit run app.py
+streamlit run src\Principal.py
 
 Esto abrirá la aplicación en tu navegador por defecto en http://localhost:8501.
 
@@ -52,7 +52,7 @@ Streamlit - Framework para crear aplicaciones web interactivas.
 Open-Meteo API - Servicio gratuito para obtener datos meteorológicos.
 
 
-## Desarrollado por: 
+## ⚙ Desarrollado por: 
 
 ·Margarita Améstica Fierro
 ·Yasna Becerra Almonacid
