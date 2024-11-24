@@ -9,13 +9,16 @@ from weather_api import get_weather_data  # Importa el módulo de la API
 st.set_page_config(page_title="Pronóstico del Tiempo", page_icon="☀️", layout="centered")
 
 
-# Crear una ruta compatible
+# Crear una ruta compatible entre sistemas operativos
 base_dir = "images"
 mini_logo = "logo_USS.png"
 logo = "logo_USS_35.png"
 
 logo = os.path.join(base_dir, logo)
 mini_logo = os.path.join(base_dir, mini_logo)
+
+st.write(logo)
+st.write(mini_logo)
 
 # Título de la aplicación
 st.title("🌦️ Aplicación del Tiempo - Open Meteo API")
