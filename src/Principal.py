@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import datetime
+import os
 from utility import paises  # Importa el módulo de países
 from weather_api import get_weather_data  # Importa el módulo de la API
 
@@ -8,12 +9,20 @@ from weather_api import get_weather_data  # Importa el módulo de la API
 st.set_page_config(page_title="Pronóstico del Tiempo", page_icon="☀️", layout="centered")
 
 
+# Crear una ruta compatible
+base_dir = "images"
+mini_logo = "logo_USS.png"
+logo = "logo_USS_35.png"
+
+logo = os.path.join(base_dir, logo)
+mini_logo = os.path.join(base_dir, mini_logo)
+
 # Título de la aplicación
 st.title("🌦️ Aplicación del Tiempo - Open Meteo API")
 st.logo(
-    "images/logo_USS_35.png",
+    logo,
     link="https://www.uss.cl/",
-    icon_image="images/logo_USS.png",
+    icon_image=mini_logo,
 )
 
 # Entrada de ubicación
