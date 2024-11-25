@@ -25,6 +25,11 @@ st.logo(
     icon_image=mini_logo,
 )
 
+st.write("""
+             En esta aplicación se podrá visualizar el pronóstico meteorológico de distintas ciudades y países del mundo preciosas durante distintos lapsos de tiempo, estos datos son obtenidos de la API Open-Meteo. Igualmente podrán disfrutar un rápido quiz en donde podrás ver cuánto conocimiento tienes sobre meteorología!! 😁
+
+             """)
+
 # Entrada de ubicación
 st.sidebar.header("Configuración:")
 
